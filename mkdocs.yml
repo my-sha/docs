@@ -1,5 +1,5 @@
 site_name: My Assistant Docs
-site_url: https://github.com/my-sha/docs
+site_url: https://my-sha.github.io/docs
 
 repo_name: my-sha/docs
 repo_url: https://github.com/my-sha/docs
@@ -34,6 +34,9 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
 
 plugins:
   - search:
@@ -42,4 +45,13 @@ plugins:
 extra:
    social:
     - icon: fontawesome/brands/github
-      link: https://github.com/my-sha/docs
+      link: https://github.com/my-sha
+
+nav:
+  - Home:
+    - index.md
+    - Changelogs:
+      - Changelogs/02.03.2025.md
+  - Getting Started:
+    - Installation:
+      - Installation/index.md
