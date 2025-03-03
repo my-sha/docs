@@ -1,4 +1,6 @@
-<meta name="description" content="Installation guide">
+<head>
+    <meta name="description" content="Installation guide">
+</head>
 # Installation
 
 Setup and Run
