@@ -1,1 +1,3 @@
-<meta name="description" content="Documentation">
+<head>
+  <meta name="description" content="Documentation">
+</head>
